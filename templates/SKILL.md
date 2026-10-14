@@ -1,4 +1,3 @@
-```markdown
 ---
 name: example-skill
 description: Describe what this skill does and when an agent should use it.
@@ -84,4 +83,3 @@ List relevant authoritative documentation or supporting files, if needed.
 ## Limitations
 
 Describe known limitations, unsupported cases, or situations requiring human review.
-```
