@@ -36,24 +36,6 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements-dev.txt
 
-      - name: Diagnose code review skill frontmatter
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path("skills/software-engineering/code-review/SKILL.md")
-          print(f"Working directory: {Path.cwd()}")
-          print(f"File exists: {path.exists()}")
-
-          if not path.exists():
-              raise SystemExit(f"Missing file: {path}")
-
-          content = path.read_bytes()
-          print(f"First 80 bytes: {content[:80]!r}")
-          print(f"Starts with YAML delimiter: {content.startswith(b'---')}")
-          print(f"Has UTF-8 BOM: {content.startswith(bytes.fromhex('efbbbf'))}")
-          PY
-
       - name: Validate skills
         run: python scripts/validate_skills.py
 
