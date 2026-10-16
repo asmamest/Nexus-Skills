@@ -17,35 +17,10 @@ This catalog is generated/maintained alongside the skill folders. Every listed s
 - **Use when:** Investigating a bug, failing test, crash, or unexpected behavior.
 - **Output:** Reproduction, evidence-backed root-cause hypothesis, minimal fix, and verification results.
 
-### `git-workflow`
-- **Path:** `skills/software-engineering/git-workflow/SKILL.md`
-- **Use when:** Planning or executing Git changes, branches, commits, rebases, merges, or pull requests.
-- **Output:** A safe, reviewable Git workflow with clear change boundaries and verification steps.
-
-### `playwright-e2e-testing`
-- **Path:** `skills/software-engineering/playwright-e2e-testing/SKILL.md`
-- **Use when:** Creating, debugging, or maintaining browser end-to-end tests with Playwright.
-- **Output:** Reliable browser tests, clear assertions, diagnostic evidence, and test results.
-
-### `requirements-discovery`
-- **Path:** `skills/software-engineering/requirements-discovery/SKILL.md`
-- **Use when:** Turning an ambiguous request into clear requirements before implementation.
-- **Output:** Scope, assumptions, constraints, acceptance criteria, and unresolved questions.
-
-### `test-driven-development`
-- **Path:** `skills/software-engineering/test-driven-development/SKILL.md`
-- **Use when:** Implementing a change using a test-first red-green-refactor workflow.
-- **Output:** Focused failing tests, a minimal implementation, and verified passing tests.
-
 ### `test-engineering`
 - **Path:** `skills/software-engineering/test-engineering/SKILL.md`
 - **Use when:** Designing or improving automated tests for existing behavior or a new change.
 - **Output:** Risk-based test plan, focused tests, and results.
-
-### `verification-before-completion`
-- **Path:** `skills/software-engineering/verification-before-completion/SKILL.md`
-- **Use when:** Preparing to report that a task, fix, test, or implementation is complete.
-- **Output:** Evidence from relevant checks, verified outcomes, and explicitly stated remaining limitations.
 
 ## AI engineering
 
@@ -71,7 +46,7 @@ This catalog is generated/maintained alongside the skill folders. Every listed s
 
 ### `llm-observability`
 - **Path:** `skills/ai-engineering/llm-observability/SKILL.md`
-- **Use when:** Instrumenting LLM applications to monitor latency, token usage, errors, quality, and cost.
+- **Use when:** Monitoring LLM application latency, token usage, errors, quality, and cost.
 - **Output:** An observability plan with useful traces, metrics, logs, and privacy safeguards.
 
 ### `model-serving-inference`
@@ -96,8 +71,8 @@ This catalog is generated/maintained alongside the skill folders. Every listed s
 
 ### `rag-pipeline-engineering`
 - **Path:** `skills/ai-engineering/rag-pipeline-engineering/SKILL.md`
-- **Use when:** Engineering an end-to-end RAG pipeline, from document ingestion and chunking to retrieval and answer generation.
-- **Output:** A pipeline design with data-flow stages, failure handling, and end-to-end evaluation.
+- **Use when:** Engineering an end-to-end RAG pipeline, from ingestion and chunking to retrieval and answer generation.
+- **Output:** Pipeline design, failure handling, and end-to-end evaluation.
 
 ### `structured-outputs`
 - **Path:** `skills/ai-engineering/structured-outputs/SKILL.md`
@@ -118,7 +93,7 @@ This catalog is generated/maintained alongside the skill folders. Every listed s
 
 ### `agent-harness-engineering`
 - **Path:** `skills/agentic-engineering/agent-harness-engineering/SKILL.md`
-- **Use when:** Engineering the runtime, tools, context, feedback loops, and safeguards surrounding an AI coding or task agent.
+- **Use when:** Engineering the runtime, tools, context, feedback loops, and safeguards surrounding an AI agent.
 - **Output:** A harness design with execution controls, verification loops, observability, and reliability checks.
 
 ### `agent-memory-design`
@@ -161,11 +136,6 @@ This catalog is generated/maintained alongside the skill folders. Every listed s
 - **Use when:** Coordinating multiple AI agents, their responsibilities, shared state, and handoffs.
 - **Output:** An orchestration design with coordination rules, failure handling, and evaluation criteria.
 
-### `skill-authoring`
-- **Path:** `skills/agentic-engineering/skill-authoring/SKILL.md`
-- **Use when:** Creating, reviewing, testing, or refining reusable skills for AI agents.
-- **Output:** A well-scoped skill with valid metadata, actionable instructions, and validation checks.
-
 ### `tool-calling-design`
 - **Path:** `skills/agentic-engineering/tool-calling-design/SKILL.md`
 - **Use when:** Designing agent tools, argument schemas, execution policies, and error responses.
@@ -175,7 +145,7 @@ This catalog is generated/maintained alongside the skill folders. Every listed s
 
 ### `agentic-security`
 - **Path:** `skills/security-quality/agentic-security/SKILL.md`
-- **Use when:** Assessing security risks in AI agents, including prompt injection, unsafe tool use, excessive agency, and untrusted data.
+- **Use when:** Assessing AI-agent risks such as prompt injection, unsafe tool use, excessive agency, and untrusted data.
 - **Output:** Threat model, prioritized mitigations, and security verification steps.
 
 ### `security-review`
